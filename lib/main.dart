@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const stateful_widget_pattern.TopPage(),
-        '/statefulWidgetPattern': (context) => stateful_widget_pattern.TopPage(),
-        // '/providerPattern':(context) => const provider_pattern.TopPage(),
+        '/statefulWidgetPattern': (context) => const stateful_widget_pattern.TopPage(),
+        '/providerPattern':(context) => const provider_pattern.TopPage(),
       },
     );
   }
