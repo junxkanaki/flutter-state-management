@@ -8,7 +8,7 @@ class TopPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('StatefulWidget Pattern')),
+      appBar: AppBar(title: const Text('BLoC Pattern')),
       body: const HomePage(),
     );
   }
