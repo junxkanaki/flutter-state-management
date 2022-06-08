@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 
 class TopPage extends StatelessWidget {
@@ -18,10 +17,10 @@ class HomePage extends StatefulWidget {
   const HomePage({Key? key}):super(key: key);
 
   @override
-  HomePageState createState() => HomePageState();
+  _HomePageState createState() => _HomePageState();
 }
 
-class HomePageState extends State<HomePage> {
+class _HomePageState extends State<HomePage> {
   late HomePageLogic homePageLogic;
 
   @override
