@@ -30,18 +30,16 @@ class HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    print('StatefulWidgetをビルド');
-    return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              WidgetA(),
-              WidgetB(_counter),
-              WidgetC(_incrementCounter),
-            ],
-          ),
+    print('build実行');
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            WidgetA(),
+            WidgetB(_counter),
+            WidgetC(_incrementCounter),
+          ],          
         ),
       ),
     );

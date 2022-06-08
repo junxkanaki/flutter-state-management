@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('buildメソッド実行');
+    print('build実行');
     return ChangeNotifierProvider(
       create: (context) => HomePageState(),
       child: Scaffold(

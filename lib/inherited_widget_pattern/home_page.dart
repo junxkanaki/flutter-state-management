@@ -30,7 +30,7 @@ class HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    print('InheritedWidgetをビルド');
+    print('build実行');
     return HomePageInheritedWidget(
       data: this,
       counter: counter,
@@ -73,8 +73,6 @@ class HomePageInheritedWidget extends InheritedWidget {
   bool updateShouldNotify(HomePageInheritedWidget oldWidget) {
     return counter != oldWidget.counter;
   }
-
-
 }
 
 class WidgetA extends StatelessWidget {
