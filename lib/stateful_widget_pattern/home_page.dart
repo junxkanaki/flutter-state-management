@@ -36,9 +36,9 @@ class HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            WidgetA(),
-            WidgetB(_counter),
-            WidgetC(_incrementCounter),
+            WidgetA(),                    /// Text
+            WidgetB(_counter),            /// カウンター値
+            WidgetC(_incrementCounter),   /// ボタン
           ],          
         ),
       ),

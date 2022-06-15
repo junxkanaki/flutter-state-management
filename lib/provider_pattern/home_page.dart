@@ -25,9 +25,9 @@ class HomePage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const <Widget>[
-              WidgetA(),
-              WidgetB(),
-              WidgetC(),
+              WidgetA(),    /// Text
+              WidgetB(),    /// カウンター値
+              WidgetC(),    /// ボタン
             ],
           ),
         ),
@@ -35,7 +35,6 @@ class HomePage extends StatelessWidget {
     );
   }
 }
-
 
 class WidgetA extends StatelessWidget {
   const WidgetA({Key? key}) : super(key: key);
