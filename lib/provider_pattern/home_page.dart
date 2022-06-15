@@ -14,7 +14,7 @@ class TopPage extends StatelessWidget {
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}):super(key: key);
-
+  /// View
   @override
   Widget build(BuildContext context) {
     print('build実行');
@@ -77,8 +77,10 @@ class WidgetC extends StatelessWidget {
 }
 
 class HomePageState extends ChangeNotifier {
+  /// 状態
   int counter = 0;
 
+  /// ロジック
   void increment() {
     counter++;
     notifyListeners();

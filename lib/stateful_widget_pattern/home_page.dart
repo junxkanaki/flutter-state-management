@@ -20,8 +20,10 @@ class HomePage extends StatefulWidget {
 }
 
 class HomePageState extends State<HomePage> {
+  /// 状態
   int _counter = 0;
 
+  /// ロジック
   void _incrementCounter() {
     setState(() {
       _counter++;
@@ -31,6 +33,7 @@ class HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     print('build実行');
+    /// View
     return Scaffold(
       body: Center(
         child: Column(
