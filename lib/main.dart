@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'State Management',
       theme: ThemeData(
+        // primaryColor: Colors.red,
         primaryColor: Colors.blue,
       ),
       initialRoute: '/',
