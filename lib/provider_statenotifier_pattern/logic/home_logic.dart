@@ -1,6 +1,3 @@
-import 'package:flutter_state_management/bloc_pattern/home_page.dart';
-import 'package:state_notifier/state_notifier.dart';
-
 import 'package:state_notifier/state_notifier.dart';
 import 'package:flutter_state_management/provider_statenotifier_pattern/state/home_state.dart';
 
